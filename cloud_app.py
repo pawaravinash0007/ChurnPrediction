@@ -99,4 +99,4 @@ if st.button("Predict Churners"):
 	result = predict(input_data)
 	st.write(result[0])
 	
-st.markdown("This code is develope by WBL Team : Viraj")
+st.markdown("This code is develope by External 	Gudie : Avinash and WBL Intern : Viraj")
