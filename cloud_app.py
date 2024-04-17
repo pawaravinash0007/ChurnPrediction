@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as py 
 import numpy as np 
+import pickle 
 
 grid_search = pickle.load(open("test.pkl", "rb"))
 
@@ -98,4 +99,4 @@ if st.button("Predict Churners"):
 	result = predict(input_data)
 	st.write(result[0])
 	
-st.markdown("This code is develope by WBL Team Leader Viraj")
+st.markdown("This code is develope by WBL Team : Viraj")
