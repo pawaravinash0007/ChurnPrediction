@@ -89,7 +89,7 @@ if st.button("Predict Churners"):
 
 	
 	for i in ["Credit Card","Electronics Check","Mailed Check"]:
-		if i=='Credit Card' or 'Electronics Check' or 'Mailed Check':
+		if i=='Credit Card' or i=='Electronics Check' or i=='Mailed Check':
 			pay=1
 		else:
 			pay=0
